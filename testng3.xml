@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="testNg.Listners"/>
+	</listeners>
+  <test name="Regression Testing">
+	<parameter name= "URL" value="QA Click Academy"/>	
+	<parameter name= "HomeLoginPage" value="QA Academy"/>
+    <classes>
+      <class name="testNg.runningTestcases"/>
+	  <class name="testNg.Day2"/>
+	  <class name="testNg.Day3"/>
+	  <class name="testNg.Day4"/>
+		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

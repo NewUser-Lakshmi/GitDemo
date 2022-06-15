@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression Testing">
+	<parameter name= "QAClickAcademy" value="Kiran">
+		</parameter>
+	<groups>
+		<run>
+			<include name = "Smoke"/>
+ 		</run>
+	</groups>
+    <classes>
+      <class name="testNg.runningTestcases"/>
+	  <class name="testNg.Day2"/>
+	  <class name="testNg.Day3"/>
+	  <class name="testNg.Day4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

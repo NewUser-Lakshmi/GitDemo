@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-04T14:55:42 BST" name="Suite" finished-at="2022-05-04T14:55:42 BST" duration-ms="147">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.MobileApp()[pri:0, instance:testNg.Day2@581ac8a8]" name="MobileApp" class="testNg.Day2"/>
+        <method signature="Day3.CarLaon()[pri:0, instance:testNg.Day3@6d4e5011]" name="CarLaon" class="testNg.Day3"/>
+        <method signature="Day4.getData4()[pri:0, instance:testNg.Day4@57d7f8ca]" name="getData4" class="testNg.Day4"/>
+        <method signature="runningTestcases.String()[pri:0, instance:testNg.runningTestcases@10d307f1]" name="String" class="testNg.runningTestcases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-05-04T14:55:42 BST" name="Regression Testing" finished-at="2022-05-04T14:55:42 BST" duration-ms="147">
+      <class name="testNg.runningTestcases">
+        <test-method signature="AfterSuite()[pri:0, instance:testNg.runningTestcases@10d307f1]" started-at="2022-05-04T14:55:42 BST" name="AfterSuite" finished-at="2022-05-04T14:55:42 BST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+        <test-method signature="String()[pri:0, instance:testNg.runningTestcases@10d307f1]" started-at="2022-05-04T14:55:42 BST" name="String" finished-at="2022-05-04T14:55:42 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- String -->
+        <test-method signature="demo()[pri:0, instance:testNg.runningTestcases@10d307f1]" started-at="2022-05-04T14:55:42 BST" name="demo" finished-at="2022-05-04T14:55:42 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="getData()[pri:0, instance:testNg.runningTestcases@10d307f1]" started-at="2022-05-04T14:55:42 BST" name="getData" finished-at="2022-05-04T14:55:42 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testNg.runningTestcases@10d307f1]" started-at="2022-05-04T14:55:42 BST" name="AfterSuite" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- testNg.runningTestcases -->
+      <class name="testNg.Day3">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="CarLaon()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="CarLaon" finished-at="2022-05-04T14:55:42 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLaon -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Homeloan(java.lang.String,java.lang.String)[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="Homeloan" data-provider="getArrayData" finished-at="2022-05-04T14:55:42 BST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeloan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Homeloan(java.lang.String,java.lang.String)[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="Homeloan" data-provider="getArrayData" finished-at="2022-05-04T14:55:42 BST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeloan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Homeloan(java.lang.String,java.lang.String)[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="Homeloan" data-provider="getArrayData" finished-at="2022-05-04T14:55:42 BST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeloan -->
+        <test-method signature="InsuranceLoan(java.lang.String,java.lang.String)[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="InsuranceLoan" finished-at="2022-05-04T14:55:42 BST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA Click Academy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA Academy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="PersonalLoan()[pri:0, instance:testNg.Day3@6d4e5011]" started-at="2022-05-04T14:55:42 BST" name="PersonalLoan" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoan -->
+      </class> <!-- testNg.Day3 -->
+      <class name="testNg.Day4">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="beforeSuite" finished-at="2022-05-04T14:55:42 BST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="getData1()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="getData1" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData1 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="AfterMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="getData2()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="getData2" finished-at="2022-05-04T14:55:42 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="AfterMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="getData3()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="getData3" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData3 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="AfterMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="getData4()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="getData4" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData4 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="AfterMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:testNg.Day4@57d7f8ca]" started-at="2022-05-04T14:55:42 BST" name="Afterclass" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- testNg.Day4 -->
+      <class name="testNg.Day2">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNg.Day2@581ac8a8]" started-at="2022-05-04T14:55:42 BST" name="BeforeMethod" finished-at="2022-05-04T14:55:42 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="MobileApp()[pri:0, instance:testNg.Day2@581ac8a8]" started-at="2022-05-04T14:55:42 BST" name="MobileApp" finished-at="2022-05-04T14:55:42 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileApp -->
+        <test-method signature="Selenium()[pri:0, instance:testNg.Day2@581ac8a8]" started-at="2022-05-04T14:55:42 BST" name="Selenium" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenium -->
+        <test-method signature="Java()[pri:0, instance:testNg.Day2@581ac8a8]" started-at="2022-05-04T14:55:42 BST" name="Java" finished-at="2022-05-04T14:55:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Java -->
+        <test-method signature="RestAPI()[pri:0, instance:testNg.Day2@581ac8a8]" started-at="2022-05-04T14:55:42 BST" name="RestAPI" finished-at="2022-05-04T14:55:42 BST" depends-on-methods="testNg.Day2.Selenium" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPI -->
+      </class> <!-- testNg.Day2 -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
